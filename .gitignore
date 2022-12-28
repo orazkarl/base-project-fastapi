@@ -1,0 +1,7 @@
+**/keys/*
+/.idea/
+**/.env
+__pycache__/
+/logs/
+/.base_urls
+/mock/
