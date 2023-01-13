@@ -43,7 +43,7 @@ class Settings(BaseSettings):
         )
 
     class Config:
-        env_file: Optional[DotenvType] = "./env"
+        env_file: Optional[DotenvType] = "./.env"
 
 
 settings = Settings()
