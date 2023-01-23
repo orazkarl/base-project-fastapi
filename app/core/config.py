@@ -1,7 +1,7 @@
 import secrets
 from typing import Optional, List, Union, Dict, Any
 
-from pydantic import BaseSettings, PostgresDsn, AnyHttpUrl, validator, HttpUrl
+from pydantic import BaseSettings, PostgresDsn, AnyHttpUrl, validator
 from pydantic.env_settings import DotenvType
 
 

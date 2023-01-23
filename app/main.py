@@ -1,8 +1,7 @@
 from fastapi import FastAPI
-from fastapi.exceptions import RequestValidationError, HTTPException
 from starlette.middleware.cors import CORSMiddleware
 
-from app.api import api_router
+from app.api.endpoints import api_router
 
 from app.core.config import settings
 
